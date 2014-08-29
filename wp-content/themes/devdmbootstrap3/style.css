@@ -1,0 +1,121 @@
+/*
+Theme Name: DevDmBootstrap3
+Theme URI: http://devdm.com/DevDmBootstrap3
+Author: Danny Machal
+Author URI: http://devdm.com/
+Description: A versatile and responsive Bootstrap WordPress starter theme FOR DEVELOPERS based on Twitter Bootstrap 3.2.0.
+Version: 1.40
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: one-column, two-columns, right-sidebar, fluid-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, rtl-language-support, theme-options, translation-ready
+Text Domain: devdmbootstrap3
+
+devdmbootstrap3 WordPress Theme, Copyright 2014 Danny Machal.
+devdmbootstrap3 is distributed under the terms of the GNU GPL v3.
+*/
+
+/* The bootstrap.css file is auto-enqueued in functions.php */
+
+/* YOU SHOULD BE MAKING A CHILD THEME. Don't let me be a bad guy and erase all your hard work with a theme update. I just want to bring you new amazing features. I don't want to destroy your world. I've made a child theme available for you to use. Download it here http://devdm.com/DevDmBootstrap3/child-themes/ */
+
+/****************** Special Blank CSS classes for child themes to use without disturbing core bootstrap styles ****************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,600);
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.dmbs-container {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.dmbs-header {
+
+}
+
+.dmbs-header-img {
+
+}
+
+.dmbs-header-text {
+	margin-top: 50px;
+}
+
+.dmbs-top-menu {
+	
+}
+
+.dmbs-content {
+
+}
+
+.dmbs-main {
+
+}
+
+.dmbs-left {
+
+}
+
+.dmbs-right {
+
+}
+
+.dmbs-footer-menu {
+
+}
+
+.dmbs-author-credits {
+
+}
+
+.dmbs-footer {
+
+}
+
+
+.background{
+	background-color: #fff;
+	margin-bottom: 50px;
+	padding-bottom: 40px;
+}
+.nav-full-width-bg{
+	background-color: #222222;
+}
+.background .content{
+	background-color: #eee;
+}
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar{
+	min-height:30px; 
+	border-radius: 0px;
+	font-size: 12px;
+	margin-bottom: 0px;
+	border:0px;
+}
+/*ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}*/
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a
+,.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+font-size: 12px;
+}
+
+.form-inline .form-control{
+	width: 100%;
+}
+.expandable {
+	height: 300px;
+	width: 400px;
+}
+.row-space { margin-bottom:20px; }
+
+@media only screen and (min-width : 768px) {
+    /* Make Navigation Toggle on Desktop Hover */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
